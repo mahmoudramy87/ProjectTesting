@@ -1,0 +1,62 @@
+{
+	"bank":[
+		{
+			"name": "CIB",
+			"atm": [
+          		{
+            		"name": "City Center",
+            		"type": "Withdrawal",
+            		"address": " City Center Alexandria, K8 Alexandria, Cairo road, In front of international garden",
+            		"area": "Down Town",
+            		"hours": "10:00am to 12:00pm",
+            		"working": "AllWeek"
+          		},
+          		{
+            		"name": "Fatallah Market",
+            		"type": "Withdrawal",
+            		"address": "Tower # 6, Sheraton Montazah Towers, El-Montazah, Alexandria, Egypt",
+            		"area": "El-Mandara",
+            		"hours": "10:00am to 11:30pm",
+            		"working": "AllWeek"
+          		},
+          		{
+            		"name": "Helnan Palestine",
+            		"type": "Withdrawal",
+            		"address": "Helnan Palestine Hotel, Alexandria, Egypt",
+            		"area": "El-Mandara",
+            		"hours": "24Hrs",
+            		"working": "AllWeek"
+          		}
+          	]
+		},
+		{
+			"name":"QNB",
+			"atm": [
+				{
+					"name": "City Center",
+            		"type": "Withdrawal",
+            		"address": "City Center Alexandria, K8 Alexandria, Cairo road, In front of international garden",
+            		"area": "Down Town",
+            		"hours": "10:00am to 12:00pm",
+            		"working": "AllWeek"
+				}, 
+				{
+					"name": "Arab Academy for Science, Technology and Maritime",
+            		"type": "Withdrawal",
+            		"address": "Gamal Abdel Nasser St., Miami",
+            		"area": "Miami",
+            		"hours": "8:00 am to 10:00 pm",
+            		"working": "AllWeek"
+				}, 
+				{
+					"name": "Arab Academy for Science, Technology, and Maritime",
+            		"type": "Withdrawal",
+            		"address": "",
+            		"area": "Abu Kir",
+            		"hours": "8:00 am to 10:00 pm",
+            		"working": "AllWeek"
+				}
+			]
+		}
+	]
+}

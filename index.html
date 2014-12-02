@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Testing jQuery Mobile</title>
+		
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdkCbW8xuzeRfKgg1Mg71PthORivJvuUQ"></script>
+		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+	</head>
+	
+	<body>
+		<div data-url="map-page" data-role="page" id="map-page">
+			<div data-role="header" data-theme="b">
+				<fieldset id="options" data-role="controlgroup" data-type="horizontal" data-mini="true">
+					<select name="select-native-14" id="select-native-14">
+						<option>Select Bank</option>
+					</select>
+					<select name="select-native-15" id="select-native-15">
+					    <option value="Select Mode" selected>Select Mode</option>
+					    <option>Driving</option>
+					    <option>Walking</option>
+					</select>
+				</fieldset>
+			</div>
+			<div role="main" class="ui-content" id="map-canvas">
+				<!-- Map Here -->
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
